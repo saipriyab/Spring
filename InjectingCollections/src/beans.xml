@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+               http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  <bean id="example1" class="com.example1.Example1">
+	<property name="names">
+	<array>
+	<value>abc</value>
+	<value>def</value>
+	<value>ghi</value>
+	<value>jkl</value>
+	<value>mno</value>
+	</array>
+	</property>
+	<property name="empnameList">
+	<list>
+	<value>listabc</value>
+	<value>listdef</value>
+	<value>listghi</value>
+	<value>listjkl</value>
+	<value>listmno</value>
+	</list>
+	</property>
+	<property name="empIdset">
+	<set>
+	<value>123</value>
+	<value>456</value>
+	<value>789</value>
+	<value>010</value>
+	<value>011</value>
+	</set>
+	</property>
+	</bean>
+</beans>
