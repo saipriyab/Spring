@@ -7,6 +7,10 @@ import java.util.Set;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
+/**
+ * @author saipriyadarshini
+ *
+ */
 public class Client {
 
 	public static void main(String[] args) {
